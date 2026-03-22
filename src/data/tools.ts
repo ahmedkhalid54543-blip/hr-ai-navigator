@@ -30,11 +30,11 @@ export const scenes: Scene[] = [
     tools: [
       {
         id: "recruiting-claude",
-        name: "Claude",
-        description: "高质量JD生成与优化，支持多岗位类型和行业定制",
+        name: "通义千问",
+        description: "适合JD生成、任职要求梳理和面试提纲打磨",
         category: "AI对话",
-        tags: ["JD生成", "文案优化"],
-        url: "https://claude.ai",
+        tags: ["JD生成", "面试提纲"],
+        url: "https://www.qianwen.com/",
         prompts: [
           {
             title: "岗位JD生成器",
@@ -79,11 +79,11 @@ export const scenes: Scene[] = [
       },
       {
         id: "recruiting-chatgpt",
-        name: "ChatGPT",
-        description: "批量简历智能筛选与匹配度评分",
+        name: "智谱清言",
+        description: "适合简历筛选、候选人比对和招聘问答",
         category: "AI对话",
         tags: ["简历筛选", "人才匹配"],
-        url: "https://chat.openai.com",
+        url: "https://chatglm.cn/",
         prompts: [
           {
             title: "简历匹配度分析",
@@ -247,11 +247,11 @@ export const scenes: Scene[] = [
     tools: [
       {
         id: "training-claude",
-        name: "Claude",
-        description: "系统化课程大纲设计，支持多层级能力模型",
+        name: "豆包",
+        description: "适合课程大纲、培训脚本和活动文案快速起稿",
         category: "AI对话",
         tags: ["课程设计", "大纲生成"],
-        url: "https://claude.ai",
+        url: "https://www.doubao.com/chat/",
         prompts: [
           {
             title: "培训课程大纲生成",
@@ -303,11 +303,11 @@ export const scenes: Scene[] = [
       },
       {
         id: "training-gamma",
-        name: "Gamma",
-        description: "一句话生成培训PPT，支持多种专业主题模板",
+        name: "WPS AI",
+        description: "适合生成培训PPT、讲师手册和汇报材料",
         category: "演示工具",
-        tags: ["PPT生成", "培训材料"],
-        url: "https://gamma.app",
+        tags: ["PPT生成", "课件设计"],
+        url: "https://ai.wps.cn/",
         prompts: [
           {
             title: "培训PPT结构设计",
@@ -461,11 +461,11 @@ export const scenes: Scene[] = [
     tools: [
       {
         id: "onboarding-claude",
-        name: "Claude",
-        description: "生成个性化入职手册和Checklist，覆盖全流程",
+        name: "通义千问",
+        description: "适合生成入职手册、岗位说明和新人沟通话术",
         category: "AI对话",
         tags: ["入职手册", "流程设计"],
-        url: "https://claude.ai",
+        url: "https://www.qianwen.com/",
         prompts: [
           {
             title: "新员工入职手册生成",
@@ -534,11 +534,11 @@ export const scenes: Scene[] = [
       },
       {
         id: "onboarding-dify",
-        name: "Dify",
-        description: "搭建新人答疑AI Bot，7×24小时自动回答入职问题",
+        name: "钉钉AI助理",
+        description: "适合搭建新人答疑、流程提醒和企业知识问答入口",
         category: "AI平台",
-        tags: ["智能问答", "Bot搭建"],
-        url: "https://dify.ai",
+        tags: ["答疑助手", "流程提醒"],
+        url: "https://extension.dingtalk.com/",
         prompts: [
           {
             title: "新人答疑Bot系统提示词",
@@ -653,11 +653,11 @@ A: 回答（100字以内，清晰准确）
       },
       {
         id: "onboarding-notion",
-        name: "Notion AI",
-        description: "智能整理入职文档，自动生成知识地图",
+        name: "钉钉文档AI",
+        description: "适合沉淀入职知识库、FAQ和标准流程文档",
         category: "效率工具",
-        tags: ["文档整理", "知识地图"],
-        url: "https://www.notion.so",
+        tags: ["知识库", "FAQ"],
+        url: "https://alidocs.dingtalk.com/product/ai",
         prompts: [
           {
             title: "入职知识地图设计",
@@ -744,11 +744,11 @@ A: 回答（100字以内，清晰准确）
     tools: [
       {
         id: "performance-claude",
-        name: "Claude",
-        description: "生成专业绩效面谈提纲，覆盖各类面谈场景",
+        name: "通义千问",
+        description: "适合生成绩效面谈提纲、OKR拆解和改进建议",
         category: "AI对话",
-        tags: ["面谈提纲", "绩效沟通"],
-        url: "https://claude.ai",
+        tags: ["绩效面谈", "目标拆解"],
+        url: "https://www.qianwen.com/",
         prompts: [
           {
             title: "绩效面谈提纲生成",
@@ -827,11 +827,11 @@ A: 回答（100字以内，清晰准确）
       },
       {
         id: "performance-chatgpt",
-        name: "ChatGPT",
-        description: "360度评估数据智能分析，自动发现能力短板",
+        name: "腾讯元宝",
+        description: "适合汇总360反馈、提炼共性问题和行动建议",
         category: "AI对话",
-        tags: ["360评估", "数据分析"],
-        url: "https://chat.openai.com",
+        tags: ["360评估", "反馈分析"],
+        url: "https://yuanbao.tencent.com/",
         prompts: [
           {
             title: "360评估结果分析",
@@ -1045,11 +1045,11 @@ A: 回答（100字以内，清晰准确）
     tools: [
       {
         id: "employee-claude",
-        name: "Claude",
-        description: "公文润色与政策文件优化，确保专业准确",
+        name: "文心一言",
+        description: "适合制度解读、公文润色和正式通知起草",
         category: "AI对话",
-        tags: ["公文润色", "政策优化"],
-        url: "https://claude.ai",
+        tags: ["公文润色", "制度解读"],
+        url: "https://yiyan.baidu.com/",
         prompts: [
           {
             title: "HR公文润色助手",
@@ -1099,11 +1099,11 @@ A: 回答（100字以内，清晰准确）
       },
       {
         id: "employee-chatgpt",
-        name: "ChatGPT",
-        description: "员工关怀文案和活动策划方案生成",
+        name: "豆包",
+        description: "适合员工关怀文案、活动策划和内部沟通稿生成",
         category: "AI对话",
         tags: ["关怀文案", "活动策划"],
-        url: "https://chat.openai.com",
+        url: "https://www.doubao.com/chat/",
         prompts: [
           {
             title: "员工关怀文案生成",
@@ -1218,10 +1218,10 @@ A: 回答（100字以内，清晰准确）
       },
       {
         id: "employee-feishu-doc",
-        name: "飞书文档",
-        description: "搭建员工政策FAQ知识库，自助查询常见问题",
+        name: "飞书文档AI",
+        description: "适合搭建员工政策FAQ和内部知识库，自助查询常见问题",
         category: "效率工具",
-        tags: ["政策FAQ", "自助查询"],
+        tags: ["政策FAQ", "知识库"],
         url: "https://www.feishu.cn/product/docs",
         prompts: [
           {
@@ -1365,11 +1365,11 @@ A: 简明回答（50-100字）
       },
       {
         id: "productivity-claude",
-        name: "Claude",
-        description: "高质量多语言翻译，保持HR专业术语准确性",
+        name: "通义千问",
+        description: "适合多语言翻译、邮件润色和政策问答",
         category: "AI对话",
-        tags: ["翻译", "多语言"],
-        url: "https://claude.ai",
+        tags: ["翻译润色", "政策问答"],
+        url: "https://www.qianwen.com/",
         prompts: [
           {
             title: "HR专业文档翻译",
@@ -1429,11 +1429,11 @@ Best regards,
       },
       {
         id: "productivity-gamma",
-        name: "Gamma",
-        description: "AI一键生成专业PPT，适用于各类HR汇报场景",
+        name: "WPS AI",
+        description: "适合一键生成PPT、周报和汇报材料",
         category: "演示工具",
         tags: ["PPT生成", "汇报材料"],
-        url: "https://gamma.app",
+        url: "https://ai.wps.cn/",
         prompts: [
           {
             title: "HR月度/季度汇报PPT结构",

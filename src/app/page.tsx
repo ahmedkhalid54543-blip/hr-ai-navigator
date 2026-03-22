@@ -46,7 +46,7 @@ export default function HomePage() {
             </h1>
           </div>
           <p className="text-sm text-muted-foreground mt-1 mb-5">
-            发现最适合HR场景的AI工具，内置实用Prompt模板
+            精选中国大陆可直接使用的HR AI产品与工具，内置实用Prompt模板
           </p>
 
           {/* Search */}

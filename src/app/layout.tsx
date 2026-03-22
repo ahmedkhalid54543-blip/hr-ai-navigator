@@ -15,7 +15,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "HR AI Navigator - 人力资源AI工具导航",
-  description: "发现最适合HR场景的AI工具，内置实用Prompt模板，一键复制即可使用",
+  description:
+    "精选中国大陆可直接使用的HR AI产品与工具，内置实用Prompt模板，一键复制即可使用",
 };
 
 export default function RootLayout({
